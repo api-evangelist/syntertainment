@@ -1,7 +1,26 @@
 aid: syntertainment
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/syntertainment.png
 name: Syntertainment
-description: Syntertainment is a company surfaced as a portfolio company of a16z and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Syntertainment was an entertainment technology startup founded in 2012 in Berkeley,
+  California by game designer Will Wright (creator of SimCity and The Sims), Avi Bar-Zeev, and Anya
+  Wright, emerging from the Stupid Fun Club collective. The company set out to explore the intersection
+  of entertainment and reality, blending real-world data and player experiences with game-like
+  interactive media. It raised roughly $5M from investors including Andreessen Horowitz (a16z),
+  Mayfield, SV Angel, and former Electronic Arts CEO John Riccitiello. The venture never shipped a
+  public consumer product and is no longer active; its website (syntertainment.com) is offline and it
+  exposes no public developer program, documentation, or API surface. This profile was surfaced from
+  an a16z portfolio list and enriched to reflect the company's real, historical status.
 url: https://raw.githubusercontent.com/api-evangelist/syntertainment/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +28,33 @@ x-backed-by:
 - a16z
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Gaming
+- Entertainment
+- Interactive Media
+- Game Design
+- Startup
+- Defunct
+common:
+- type: Website
+  url: https://www.syntertainment.com
+- type: Crunchbase
+  url: https://www.crunchbase.com/organization/syntertainment
+- type: LinkedIn
+  url: https://www.linkedin.com/company/syntertainment
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
