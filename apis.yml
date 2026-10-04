@@ -49,7 +49,6 @@ tags:
 - Entertainment
 - Interactive Media
 - Game Design
-- Startups
 - Defunct
 tags_raw:
 - Company
@@ -57,7 +56,6 @@ tags_raw:
 - Entertainment
 - Interactive Media
 - Game Design
-- Startup
 - Defunct
 common:
 - type: Website
@@ -77,3 +75,7 @@ x-enrichment:
   status: minimal
   artifacts_added: 0
   pass: local-v1
+x-tags-removed:
+- Startups
+x-company-stage: startup
+x-company-stage-evidence: "own tags: Startup"
